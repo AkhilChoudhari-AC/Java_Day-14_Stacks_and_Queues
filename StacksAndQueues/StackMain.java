@@ -1,40 +1,21 @@
 package BridgeLabz.StacksAndQueues;
 
+import java.util.Stack;
+
 public class StackMain {
 
     public static void main(String[] args) {
+        System.out.println("Deleting element from queue ::");
+        Queue queue = new Queue();
 
-        System.out.println("inserting element into stack ::");
-        System.out.println("deleting element ::");
+        queue.printList();
         /*
-         * 1.creating an Oject of class Stack
+         * Adding element to the queue
          */
-        Stack stack = new Stack();
+        queue.addNode(56);
+        queue.addNode(30);
+        queue.addNode(70);
 
-        /*
-         * Calling mathod addNode to add elements
-         */
-        stack.addNode(70);
-        stack.addNode(30);
-        stack.addNode(56);
-
-        /*
-         * Calling Method Peak it will returns the value of what is on the top of the
-         * stack
-         */
-        stack.peak();
-
-        /*
-         * pop: Created Method deleteHead will remove the value of the stack and then
-         * return it
-         */
-        stack.deleteHead();
-        stack.printList();
-        stack.peak();
-        stack.deleteHead();
-        stack.printList();
-        stack.peak();
-        stack.deleteHead();
 
     }
 }

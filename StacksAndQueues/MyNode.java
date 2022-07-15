@@ -1,6 +1,9 @@
 package BridgeLabz.StacksAndQueues;
 
 public class MyNode {
+    /*
+     * created MyNode Class
+     */
     public int data;
     public MyNode next;
 
